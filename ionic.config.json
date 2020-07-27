@@ -1,0 +1,7 @@
+{
+  "name": "interfell",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

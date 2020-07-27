@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Detalles de la promocion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <h3>Id: {{id}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Titulo: {{title}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Precio: {{price}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Direccion: {{address}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Latitud: {{latitude}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Longitud: {{longitude}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Creado: {{created_at}}</h3>
+    </ion-item>
+    <ion-item>
+      <h3>Actualizado: {{updated_at}}</h3>
+    </ion-item>
+  </ion-list>
+</ion-content>
