@@ -29,7 +29,7 @@
     "cordova-plugin-enable-cleartext-traffic": "^2.1.0",
     "cordova-plugin-inappbrowser": "^4.0.0",
     "rxjs": "~6.5.1",
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
